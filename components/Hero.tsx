@@ -50,7 +50,7 @@ const Hero = () => {
             Hello there! I&apos;m Anusha, a React.js Developer based in Seattle, WA.
           </p>
 
-          <a href="#about">
+          <a href="#aboutme">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}

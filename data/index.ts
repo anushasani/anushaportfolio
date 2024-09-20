@@ -1,5 +1,7 @@
+import { link } from "fs";
+
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About", link: "#aboutme" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
@@ -18,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I excel in using Tailwind CSS and framer motion",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building  ReactJS Projects ",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -76,7 +78,7 @@ export const projects = [
     des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://google.com",
   },
   {
     id: 2,
@@ -107,34 +109,16 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I had the pleasure of working with Anusha Sani as our Front-End Developer, and I must say he exceeded our expectations. His expertise in React.js and attention to detail made a significant difference in the user experience of our web applications. Anusha was not only efficient but also quick to implement changes and provide innovative solutions to complex problems. His communication skills and ability to understand our requirements helped streamline our project smoothly. I highly recommend Anusha for any front-end development projects",
+    name: "Vijay Sani",
+    title: "Amazon Web Services",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Anusha was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Anusha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Anushad is the ideal partner.",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+    title: "Up Work Technologies",
+  }
 ];
 
 export const companies = [
@@ -182,7 +166,7 @@ export const workExperience = [
     id: 2,
     title: "Softpro Business Solution, Bangalore, India | Front-End Engineer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
@@ -195,7 +179,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "As a freelancer on Fiverr, I have completed various front-end development projects using HTML, CSS, JavaScript, and React.js. I have worked on creating responsive websites and web applications with a focus on user-friendly design and functionality.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +189,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/anushasani"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:"#"
   },
   {
     id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/anusha-sani/"
   },
 ];

@@ -28,7 +28,7 @@ const Footer = () => {
 
         {/* "Download CV" Button */}
         <a
-          href="/Resume.pdf" // Provide the correct path to your resume file
+          href="/Anusha_Sani_Resume.pdf" // Provide the correct path to your resume file
           download="Anusha_Sani_Resume.pdf" // This will set the download filename
           className="mt-5" // Add margin-top to create spacing between buttons
         >

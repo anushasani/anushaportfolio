@@ -118,7 +118,7 @@ export const testimonials = [
       "Collaborating with Anusha was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Anusha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Anushad is the ideal partner.",
     name: "Michael Johnson",
     title: "Up Work Technologies",
-  }
+  },
 ];
 
 export const companies = [
@@ -167,7 +167,7 @@ export const workExperience = [
     title: "Softpro Business Solution, Bangalore, India | Front-End Engineer",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/Softproimg.avif",
   },
   {
     id: 3,
@@ -189,16 +189,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link:"https://github.com/anushasani"
+    link: "https://github.com/anushasani",
   },
   // {
   //   id: 2,
-  //   img: "/twit.svg", #if you want to add new social media un-comment this and give a link 
+  //   img: "/twit.svg", #if you want to add new social media un-comment this and give a link
   //   link:"#"
   // },
   {
     id: 2,
     img: "/link.svg",
-    link:"https://www.linkedin.com/in/anusha-sani/"
+    link: "https://www.linkedin.com/in/anusha-sani/",
   },
 ];

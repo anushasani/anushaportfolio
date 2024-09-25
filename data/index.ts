@@ -110,14 +110,14 @@ export const testimonials = [
   {
     quote:
       "I had the pleasure of working with Anusha Sani as our Front-End Developer, and I must say he exceeded our expectations. His expertise in React.js and attention to detail made a significant difference in the user experience of our web applications. Anusha was not only efficient but also quick to implement changes and provide innovative solutions to complex problems. His communication skills and ability to understand our requirements helped streamline our project smoothly. I highly recommend Anusha for any front-end development projects",
-    name: "Vijay Sani",
-    title: "Amazon Web Services",
+    name: "Hari prasad",
+    title: "Cognizant",
   },
   {
     quote:
       "Collaborating with Anusha was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Anusha's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Anushad is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Up Work Technologies",
+    name: "Bhagya Shetty",
+    title: "Cognizant",
   },
 ];
 
@@ -127,6 +127,8 @@ export const companies = [
     name: "cloudinary",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
+
+    
   },
   {
     id: 2,
@@ -157,14 +159,14 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: " Cognizant, Bangalore, India | Front-End Engineer",
+    title: " Cognizant, Bangalore, India | Front End Engineer",
     desc: " Created  a  Shimmer  UI  loading  component  for  displaying  a  page  initially  until  data  is  retrieved  from  the API.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Softpro Business Solution, Bangalore, India | Front-End Engineer",
+    title: "Softpro Business Solution, Bangalore, India | Front End Engineerr",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2",
     thumbnail: "/Softproimg.avif",
